@@ -1,8 +1,8 @@
-#! /bin/bash
+#!/bin/bash
 
 NUMBER=$1
 NUMBER=$2
 
-SUM = ($NUMBER1 + $NUMBER2)
+SUM = $((NUMBER1 + NUMBER2))
 
-echo "Addition Of Two Numbers Is $SUM
+echo "Addition Of Two Numbers Is $SUM"
